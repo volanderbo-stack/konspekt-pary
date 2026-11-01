@@ -1,0 +1,18 @@
+{
+  "name": "konspekt-pary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Конспект пари — PWA для транскрипцій і конспектів пар у Teams",
+  "type": "module",
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "fixtures": "node scripts/make-fixtures.mjs",
+    "test": "node --test tests/*.test.js",
+    "start": "python -m http.server 8080"
+  },
+  "devDependencies": {
+    "@ffmpeg/core": "0.12.6",
+    "@ffmpeg/ffmpeg": "0.12.10",
+    "jszip": "3.10.1"
+  }
+}
